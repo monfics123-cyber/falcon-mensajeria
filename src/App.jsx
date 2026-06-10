@@ -35,6 +35,7 @@ const INICIAL = {
   ],
   entregado: [
     { id: "P-006", cliente: "Isabella Peña",   destino: "Chapinero, Bucaramanga",   paquete: "Alimentos",    hora: "06:30", prioridad: "normal" },
+    { id: "P-007", cliente: "Mariana Castro", destino: "Floridablanca, Santander", paquete: "Documentos", hora: "07:00", prioridad: "normal" },
   ],
 };
 
