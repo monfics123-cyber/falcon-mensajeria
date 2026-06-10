@@ -6,11 +6,17 @@
 
 ---
 
+## 🔗 App desplegada
+
+[Falcon Mensajería Femenina](https://falcon-mensajeria.netlify.app/)
+
+---
+
 ## Integrantes del grupo
 - Juan Arias
-- Cristhian Echavarria 
+- Cristhian Echavarria
 - Miguel Moncada
-- Jaider Vezga 
+- Jaider Vezga
 
 ---
 
@@ -52,9 +58,8 @@ Esto corresponde al criterio de "sincronización en varios puntos" del Nivel 3 d
 
 ### Funcionalidades adicionales
 - Registro de nuevos pedidos desde un modal (se agregan a la columna "Recibido").
-- Vista de detalle de cada pedido haciendo clic en la tarjeta.
 - Indicador visual de columna objetivo durante el arrastre.
-- Etiqueta de prioridad ⚡ Alta visible en las tarjetas.
+- Etiqueta de prioridad URGENTE visible en las tarjetas.
 
 ---
 
@@ -66,7 +71,7 @@ Esto corresponde al criterio de "sincronización en varios puntos" del Nivel 3 d
 | JavaScript (ES2022) | — | Lógica del componente |
 | HTML5 Drag & Drop API | nativo | Interacción de arrastre |
 | CSS-in-JS (objetos de estilo) | — | Estilos sin dependencias extra |
-| Google Fonts | — | Tipografía (Inter + Playfair Display) |
+| Google Fonts | — | Tipografía (Inter) |
 
 > **Nota:** No se usan librerías externas de drag & drop (como `react-beautiful-dnd`) deliberadamente, para demostrar comprensión del mecanismo nativo y facilitar la explicación en sustentación.
 
@@ -100,16 +105,16 @@ npm install
 # 3. Ejecutar en desarrollo
 npm start
 # Abre http://localhost:3000
-
-# 4. Build para producción
-npm run build
 ```
 
-### Despliegue en Vercel (recomendado)
-1. Crear cuenta en [vercel.com](https://vercel.com)
-2. Importar el repositorio de GitHub
-3. Dejar la configuración por defecto (detecta React automáticamente)
-4. Clic en "Deploy"
+### Despliegue en Netlify
+1. Crear cuenta en [netlify.com](https://netlify.com)
+2. Clic en **"Add new site"** → **"Import an existing project"**
+3. Conectar con GitHub y seleccionar el repositorio
+4. Configurar:
+   - **Build command:** `npm install && node node_modules/react-scripts/bin/react-scripts.js build`
+   - **Publish directory:** `build`
+5. Clic en **"Deploy site"**
 
 ---
 
