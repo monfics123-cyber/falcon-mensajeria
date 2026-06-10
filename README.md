@@ -7,7 +7,10 @@
 ---
 
 ## Integrantes del grupo
-*(Agrega aquí los nombres y códigos del grupo)*
+Juan Arias
+Cristhian Echavarria 
+Miguel Moncada
+Jaider Vezga 
 
 ---
 
