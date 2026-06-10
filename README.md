@@ -7,10 +7,10 @@
 ---
 
 ## Integrantes del grupo
-Juan Arias
-Cristhian Echavarria 
-Miguel Moncada
-Jaider Vezga 
+- Juan Arias
+- Cristhian Echavarria 
+- Miguel Moncada
+- Jaider Vezga 
 
 ---
 
