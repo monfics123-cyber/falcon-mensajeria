@@ -10,7 +10,7 @@ const C = {
   dark2:   "#242424",
   dark3:   "#2e2e2e",
   dark4:   "#3a3a3a",
-  text:    "#f9fafb",
+  text:    "#e7ebf0",
   muted:   "#9ca3af",
   border:  "#333333",
 };
