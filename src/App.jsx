@@ -141,7 +141,7 @@ export default function App() {
 
       {/* ── Banner del negocio ── */}
       <div style={s.imgSlot}>
-        <img src="/banner.JPG" alt="Falcon Mensajería " style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        <img src="/banner.JPG" alt="Falcon Mensajería" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </div>
 
       {/* ── Tablero Kanban ── */}
