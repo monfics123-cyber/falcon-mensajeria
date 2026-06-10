@@ -32,6 +32,7 @@ const INICIAL = {
   en_ruta: [
     { id: "P-004", cliente: "Daniela Vargas",  destino: "Cabecera, Bucaramanga",    paquete: "Electrónica",  hora: "07:45", prioridad: "normal" },
     { id: "P-005", cliente: "Luciana Gómez",   destino: "Provenza, Bucaramanga",    paquete: "Documentos",   hora: "08:00", prioridad: "alta"   },
+    { id: "P-008", cliente: "Alejandra Mora", destino: "Girón, Santander", paquete: "Ropa", hora: "11:30", prioridad: "alta" },
   ],
   entregado: [
     { id: "P-006", cliente: "Isabella Peña",   destino: "Chapinero, Bucaramanga",   paquete: "Alimentos",    hora: "06:30", prioridad: "normal" },
