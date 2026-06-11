@@ -151,7 +151,8 @@ Nuestro tablero usa el mismo mecanismo nativo de la API, pero sin UI optimista (
 
 ## Enlace al video de sustentación
 
-*(Agregar aquí el enlace al video una vez grabado)*
+https://youtu.be/GQNJghw9yxo?si=lw6ruxioH797JnLK
+
 
 ---
 
